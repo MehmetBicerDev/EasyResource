@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{6289be4e-c288-4c62-8c49-4fe37b8868fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easyresource">
+      <UniqueIdentifier>{ee704c3c-b353-49ba-94e8-5f86fd49c762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easyresource\skeleton">
+      <UniqueIdentifier>{a3b4ccaf-f9e9-457e-b9aa-0cb02e60c52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{df668fe2-af84-4fd1-9077-3dffb171334b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_buffer.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="c_mainresource.h">
+      <Filter>easyresource\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="c_resource.h">
+      <Filter>easyresource\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="easyresource.h">
+      <Filter>easyresource</Filter>
+    </ClInclude>
+    <ClInclude Include="file_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="easyresource.cpp">
+      <Filter>easyresource</Filter>
+    </ClCompile>
+    <ClCompile Include="file_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
